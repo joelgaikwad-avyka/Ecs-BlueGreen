@@ -9,7 +9,7 @@
   "containerDefinitions": [
     {
       "name": "scorecard-service",
-      "image": "<+pipeline.variables.AWS_ACC_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/joelpoc/repo:<+pipeline.sequenceId",
+      "image": "<+pipeline.variables.AWS_ACC_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/joelpoc/repo:v1.0.<+pipeline.sequenceId",
       "essential": true,
       "portMappings": [
         {
