@@ -1,0 +1,11 @@
+{
+  "serviceName": "scorecard-service",
+  "taskDefinition": "scorecard-service-task",
+  "desiredCount": 1,
+  "launchType": "EC2",
+  "deploymentConfiguration": {
+    "maximumPercent": 200,
+    "minimumHealthyPercent": 100
+  },
+  "schedulingStrategy": "REPLICA"
+}
